@@ -262,16 +262,16 @@ input[placeholder]::-webkit-input-placeholder {
     .all-date {
         width: 60%;
     }
-    main
-    {
-        height: 150vh;
+
+    main {
+        height: 170vh;
     }
-    .input-footer
-    {
+
+    .input-footer {
         width: 100%;
     }
-    .btn-footer
-    {
+
+    .btn-footer {
         width: 20%;
     }
 }
