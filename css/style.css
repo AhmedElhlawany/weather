@@ -1,0 +1,229 @@
+body {
+    font-family: "Nunito", sans-serif;
+}
+.nav-link:hover {
+    color: #009ad8;
+}
+.navbar a{
+    color: #fff;
+}
+.nav-icon-item h2{
+    font-size: 16px;
+    font-weight: 600;
+}
+.nav-icon-item p{
+    font-size: 14px;
+}
+.nav-item{
+    padding-left: 1px;
+    margin-left: 3px;
+    color: #fff;
+}
+.nav-icon-item i{
+    font-size: 50px;
+    color: #009ad8;
+}
+.nav-item:active{
+    color: #fff;
+    border: 2px solid #009ad8;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.nav-item:hover{
+    border: 2px solid #009ad8;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.nav-link .active{
+    color: #fff;
+    border: 2px solid #009ad8;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+#mail-li{
+    color: #fff;
+}
+#mail-li:hover{
+    color: #009ad8;
+    
+  
+}
+main {
+    background-image: url(../images/sky-background-video-conferencing_23-2148639325.avif);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+
+}
+
+.temp-type {
+    font-size: 14px;
+    margin: 0;
+}
+
+.today-weather {
+    border-bottom: 3px dotted gray;
+}
+
+.form-control:focus {
+    box-shadow: unset;
+}
+
+input[placeholder]::-webkit-input-placeholder {
+    color: darkblue;
+}
+
+
+
+.lds-ring,
+.lds-ring div {
+    box-sizing: border-box;
+}
+
+.lds-ring {
+    display: inline-block;
+    position: relative;
+    width: 80px;
+    height: 80px;
+}
+
+.lds-ring div {
+    box-sizing: border-box;
+    display: block;
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    margin: 8px;
+    border: 8px solid white;
+    border-radius: 50%;
+    animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+    border-color: white transparent transparent transparent;
+}
+
+.lds-ring div:nth-child(1) {
+    animation-delay: -0.45s;
+}
+
+.lds-ring div:nth-child(2) {
+    animation-delay: -0.3s;
+}
+
+.lds-ring div:nth-child(3) {
+    animation-delay: -0.15s;
+}
+
+@keyframes lds-ring {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.end-item{
+    width: 60%;
+}
+.icon-item{
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 50%;
+}
+.icon-item i{
+    color: black;
+    font-size: 40px;
+    border-radius:50%;
+    
+}
+
+/* contact */
+.way{
+    background: #262936;
+    color: #fff;
+}
+.way a{
+    text-decoration: none;
+    color: #bfc1c8;
+    position: relative;
+}
+
+.way a::after{
+    content: "";
+    width: 0px;
+    height: 1px;
+    position: absolute;
+    bottom: 2px;
+    left: 0;
+    background-color: #bfc1c8;
+}
+.way a:hover::after{
+    content: "";
+    width: 42px;
+    height: 1px;
+    position: absolute;
+    bottom: 4px;
+    left: 0;
+    background-color: #bfc1c8;
+}
+.contact-info a{
+    text-decoration: none;
+    color: #fff;
+    
+}
+.get-info input{
+    border: 2px solid #bfc1c8;
+    background-color: transparent;
+    color: #bfc1c8;
+    
+}
+.get-info input:hover{
+    border-color: #009ad8;
+}
+.get-info input::placeholder{
+    color: #bfc1c8;
+}
+/*  */
+.get-info textarea{
+    border: 2px solid #bfc1c8;
+    background-color: transparent;
+    border-radius: 50px;
+    
+}
+.get-info textarea:hover{
+    border-color: #009ad8;
+}
+.get-info textarea::placeholder{
+    color: #bfc1c8;
+    
+}
+.adress{
+    width: 80%;
+    background-color: #262936;
+    border-radius: 5px;
+    height: 80%;
+
+}
+/* .adress p{
+    font-size: 25px;
+} */
+.end-contact{
+    background-color: #262936;
+    color: #fff;
+}
+.icon-item-contact i{
+    color: #009ad8;
+    
+}
+.end-contact input{
+    background-color: #000;
+    border: none;
+}
