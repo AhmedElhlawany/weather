@@ -57,7 +57,7 @@ function displayWeatherData(data) {
     const date = new Date(dataArray[i].date)
     const weekDay = date.toLocaleDateString("us-uk", { weekday: "long" })
     weatherBox += `
-                <div class="today  col-md-4 my-1">
+                <div class="today  col-md-4 mx-1 my-1">
                     <div class="innerCard bg-primary-subtle rounded-3 py-2 px-4">
                         <p class="weekDay text-center fw-bolder text-black ">${weekDay}</p>
                         <div class="d-flex justify-content-between">
